@@ -151,7 +151,7 @@ namespace Blish_HUD.Overlay.UI.Views {
                 _ = new Label() {
                     Parent = aboutPanel,
                     Top = bottomDiscordSection.Bottom,
-                    Text = $"An update to Blish HUD v{update.NewManifest.Version} is available!",
+                    Text = string.Format(Strings.GameServices.OverlayService.About_UpdateStatus_Available , update.NewManifest.Version),
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Middle,
                     Left = 0,
@@ -161,7 +161,7 @@ namespace Blish_HUD.Overlay.UI.Views {
                 };
 
                 var updateButton = new StandardButton() {
-                    Text = $"Update Blish HUD",
+                    Text = Strings.GameServices.OverlayService.About_UpdateButton,
                     Width = 164,
                     Parent = aboutPanel
                 };
@@ -177,7 +177,7 @@ namespace Blish_HUD.Overlay.UI.Views {
                 _ = new Label() {
                     Parent = aboutPanel,
                     Top = bottomDiscordSection.Bottom,
-                    Text = "You are running the latest version of Blish HUD.",
+                    Text = Strings.GameServices.OverlayService.About_UpdateStatus_Latest,
                     HorizontalAlignment = HorizontalAlignment.Center,
                     VerticalAlignment = VerticalAlignment.Middle,
                     Left = 0,

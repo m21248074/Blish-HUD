@@ -2,16 +2,16 @@
 
 namespace Blish_HUD.Graphics {
     public enum DynamicHUDMethod : int {
-        [Description("Always Show (Default)")]
+        [LocalizedDescription("Setting_DynamicHUD_AlwaysShow")]
         AlwaysShow = 0,
 
-        [Description("Show Only out of Combat")]
+        [LocalizedDescription("Setting_DynamicHUD_ShowPeaceful")]
         ShowPeaceful = 1,
 
-        [Description("Show Only in Combat")]
+        [LocalizedDescription("Setting_DynamicHUD_ShowInCombat")]
         ShowInCombat = 2,
 
-        [Description("Never Show")]
+        [LocalizedDescription("Setting_DynamicHUD_NeverShow")]
         NeverShow = 3
     }
 }
