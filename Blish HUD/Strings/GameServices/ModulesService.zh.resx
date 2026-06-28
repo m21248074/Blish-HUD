@@ -117,72 +117,93 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GraphicsSettingsSection" xml:space="preserve">
-    <value>Graphics Settings</value>
-    <comment>The name of the graphics settings section that is shown in the settings.</comment>
+  <data name="ManageModulesSection" xml:space="preserve">
+    <value>管理模組</value>
   </data>
-  <data name="Setting_FramerateLimiter_DisplayName" xml:space="preserve">
-    <value>Frame Limiter</value>
+  <data name="ModuleState_Disabled" xml:space="preserve">
+    <value>已停用</value>
   </data>
-  <data name="Setting_FramerateLimiter_Description" xml:space="preserve">
-    <value>The method used to determine the framerate that Blish HUD should run at.</value>
+  <data name="ModuleState_Loading" xml:space="preserve">
+    <value>讀取中</value>
   </data>
-  <data name="Setting_FramerateLimiter_Locked_Description" xml:space="preserve">
-    <value>(Disabled because Blish HUD was started with --maxfps/--unlockfps specified)</value>
+  <data name="ModuleState_Enabled" xml:space="preserve">
+    <value>已啟用</value>
   </data>
-  <data name="Setting_SmoothCharacterPosition_DisplayName" xml:space="preserve">
-    <value>Smooth Character Position</value>
+  <data name="ModuleState_Disabling" xml:space="preserve">
+    <value>正在停用</value>
   </data>
-  <data name="Setting_SmoothCharacterPosition_Description" xml:space="preserve">
-    <value>If enabled, the character position is smoothed to prevent 3D overlay elements from jumping around.</value>
+  <data name="ModuleManagement_AuthoredBy" xml:space="preserve">
+    <value>作者:</value>
   </data>
-  <data name="Setting_DPIScaling_DisplayName" xml:space="preserve">
-    <value>DPI Scaling</value>
+  <data name="ModuleManagement_EnableModule" xml:space="preserve">
+    <value>啟用模組</value>
   </data>
-  <data name="Setting_DPIScaling_Description" xml:space="preserve">
-    <value>Enables additional scaling of the UI according to your system settings.</value>
+  <data name="ModuleManagement_DisableModule" xml:space="preserve">
+    <value>停用模組</value>
   </data>
-  <data name="Setting_UIScaling_Description" xml:space="preserve">
-    <value>Determines the scaling of the UI. Either sync with game or set manually.
-NOTE: 'Automatic' will only update while logged in with a character</value>
+  <data name="ModuleManagement_Description" xml:space="preserve">
+    <value>描述</value>
   </data>
-  <data name="Setting_UIScaling_DisplayName" xml:space="preserve">
-    <value>Interface Size</value>
+  <data name="ModuleManagement_ApiPermissions" xml:space="preserve">
+    <value>API 權限</value>
   </data>
-  <data name="Setting_FramerateLimiter_LockedTo30Fps" xml:space="preserve">
-    <value>Locked To 30 Fps</value>
+  <data name="ModuleManagement_Dependencies" xml:space="preserve">
+    <value>前置需求</value>
   </data>
-  <data name="Setting_FramerateLimiter_LockedTo60Fps" xml:space="preserve">
-    <value>Locked To 60 Fps</value>
+  <data name="ModuleManagement_IgnoreDependencyRequirements" xml:space="preserve">
+    <value>忽略前置需求</value>
   </data>
-  <data name="Setting_FramerateLimiter_LockedTo90Fps" xml:space="preserve">
-    <value>Locked To 90 Fps</value>
+  <data name="ModuleManagement_ModuleSettings" xml:space="preserve">
+    <value>模組設定</value>
   </data>
-  <data name="Setting_FramerateLimiter_Unlimited" xml:space="preserve">
-    <value>Match Monitor Refresh Rate</value>
+  <data name="ModuleSettings_ShownWhenEnabled" xml:space="preserve">
+    <value>啟用模組後將顯示設定選項</value>
   </data>
-  <data name="Setting_DPIScaling_SyncWithGame" xml:space="preserve">
-    <value>Automatic - Sync With Game</value>
+  <data name="ModuleOption_ClearSettings" xml:space="preserve">
+    <value>清除設定</value>
   </data>
-  <data name="Setting_DPIScaling_UseGameDpi" xml:space="preserve">
-    <value>Enabled - Use Game DPI</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ModuleOption_ClearSettings_DescriptionEnabled" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
   </data>
-  <data name="Setting_DPIScaling_NoScaling" xml:space="preserve">
-    <value>Disabled - Never Scale</value>
+  <data name="ModuleOption_OpenDir" xml:space="preserve">
+    <value>開啟 '{0}' 資料夾</value>
   </data>
-  <data name="Setting_UIScaling_SyncWithGame" xml:space="preserve">
-    <value>Automatic - Sync With Game</value>
+  <data name="NoModules_Info" xml:space="preserve">
+    <value>您目前沒有安裝任何模組。
+請下載模組並將其放至模組資料夾中。</value>
   </data>
-  <data name="Setting_UIScaling_Small" xml:space="preserve">
-    <value>Small</value>
+  <data name="NoModules_OpenFolder" xml:space="preserve">
+    <value>開啟模組資料夾</value>
   </data>
-  <data name="Setting_UIScaling_Normal" xml:space="preserve">
-    <value>Normal</value>
+  <data name="PkgManagement_Update" xml:space="preserve">
+    <value>更新</value>
   </data>
-  <data name="Setting_UIScaling_Large" xml:space="preserve">
-    <value>Large</value>
+  <data name="PkgManagement_Install" xml:space="preserve">
+    <value>安裝</value>
   </data>
-  <data name="Setting_UIScaling_Larger" xml:space="preserve">
-    <value>Larger</value>
+  <data name="PkgManagement_CurrentVersion" xml:space="preserve">
+    <value>當前版本</value>
+  </data>
+  <data name="PkgManagement_Downgrade" xml:space="preserve">
+    <value>降級</value>
+  </data>
+  <data name="PkgInstall_Progress_Installing" xml:space="preserve">
+    <value>正在安裝...</value>
+  </data>
+  <data name="PkgInstall_Progress_Upgrading" xml:space="preserve">
+    <value>正在升級...</value>
+  </data>
+  <data name="PkgManagement_ModulesNeedRestart" xml:space="preserve">
+    <value>Blish HUD 需要重新啟動，才能重新啟用部分模組。</value>
+  </data>
+  <data name="ModuleOption_DeleteModule" xml:space="preserve">
+    <value>刪除模組</value>
+  </data>
+  <data name="PkgManagement_MoreInfo" xml:space="preserve">
+    <value>更多資訊</value>
+  </data>
+  <data name="ApiPermission_NotEditable" xml:space="preserve">
+    <value>必須在停用模組的情況下，才能編輯權限。</value>
   </data>
 </root>

@@ -118,71 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="GraphicsSettingsSection" xml:space="preserve">
-    <value>Graphics Settings</value>
-    <comment>The name of the graphics settings section that is shown in the settings.</comment>
+    <value>畫面設定</value>
   </data>
   <data name="Setting_FramerateLimiter_DisplayName" xml:space="preserve">
-    <value>Frame Limiter</value>
+    <value>影格率限制器</value>
   </data>
   <data name="Setting_FramerateLimiter_Description" xml:space="preserve">
-    <value>The method used to determine the framerate that Blish HUD should run at.</value>
-  </data>
-  <data name="Setting_FramerateLimiter_Locked_Description" xml:space="preserve">
-    <value>(Disabled because Blish HUD was started with --maxfps/--unlockfps specified)</value>
+    <value>設定用來決定 Blish HUD 運行影格率(FPS)的方法。</value>
   </data>
   <data name="Setting_SmoothCharacterPosition_DisplayName" xml:space="preserve">
-    <value>Smooth Character Position</value>
+    <value>平滑角色定位</value>
   </data>
   <data name="Setting_SmoothCharacterPosition_Description" xml:space="preserve">
-    <value>If enabled, the character position is smoothed to prevent 3D overlay elements from jumping around.</value>
+    <value>若啟用，將會平滑化角色位置數據，以防止 3D 疊層元素出現抖動或跳動的現象。</value>
   </data>
   <data name="Setting_DPIScaling_DisplayName" xml:space="preserve">
-    <value>DPI Scaling</value>
+    <value>DPI 縮放</value>
   </data>
   <data name="Setting_DPIScaling_Description" xml:space="preserve">
-    <value>Enables additional scaling of the UI according to your system settings.</value>
+    <value>若啟用，將會根據您的系統設定對 UI 介面進行額外的縮放調整。</value>
   </data>
   <data name="Setting_UIScaling_Description" xml:space="preserve">
-    <value>Determines the scaling of the UI. Either sync with game or set manually.
-NOTE: 'Automatic' will only update while logged in with a character</value>
+    <value>決定 UI 的縮放比例。可選擇與遊戲同步或進行手動設定。
+注意: '自動'選項僅在登入角色進入遊戲後才會進行更新。</value>
   </data>
   <data name="Setting_UIScaling_DisplayName" xml:space="preserve">
-    <value>Interface Size</value>
+    <value>介面大小</value>
   </data>
   <data name="Setting_FramerateLimiter_LockedTo30Fps" xml:space="preserve">
-    <value>Locked To 30 Fps</value>
+    <value>鎖定至 30 FPS</value>
   </data>
   <data name="Setting_FramerateLimiter_LockedTo60Fps" xml:space="preserve">
-    <value>Locked To 60 Fps</value>
+    <value>鎖定至 60 FPS</value>
   </data>
   <data name="Setting_FramerateLimiter_LockedTo90Fps" xml:space="preserve">
-    <value>Locked To 90 Fps</value>
+    <value>鎖定至 90 FPS</value>
   </data>
   <data name="Setting_FramerateLimiter_Unlimited" xml:space="preserve">
-    <value>Match Monitor Refresh Rate</value>
+    <value>配合顯示器更新率</value>
   </data>
   <data name="Setting_DPIScaling_SyncWithGame" xml:space="preserve">
-    <value>Automatic - Sync With Game</value>
+    <value>自動 - 與遊戲同步</value>
   </data>
   <data name="Setting_DPIScaling_UseGameDpi" xml:space="preserve">
-    <value>Enabled - Use Game DPI</value>
+    <value>已啟用 - 使用遊戲 DPI</value>
   </data>
   <data name="Setting_DPIScaling_NoScaling" xml:space="preserve">
-    <value>Disabled - Never Scale</value>
+    <value>已停用 - 永不縮放</value>
   </data>
   <data name="Setting_UIScaling_SyncWithGame" xml:space="preserve">
-    <value>Automatic - Sync With Game</value>
+    <value>自動 - 與遊戲同步</value>
   </data>
   <data name="Setting_UIScaling_Small" xml:space="preserve">
-    <value>Small</value>
+    <value>小</value>
   </data>
   <data name="Setting_UIScaling_Normal" xml:space="preserve">
-    <value>Normal</value>
+    <value>一般</value>
   </data>
   <data name="Setting_UIScaling_Large" xml:space="preserve">
-    <value>Large</value>
+    <value>大</value>
   </data>
   <data name="Setting_UIScaling_Larger" xml:space="preserve">
-    <value>Larger</value>
+    <value>較大</value>
   </data>
 </root>

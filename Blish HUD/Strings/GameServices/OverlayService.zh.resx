@@ -117,238 +117,188 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HomeTab" xml:space="preserve">
-    <value>Home</value>
-    <comment>The name of the home tab in the primary Blish HUD tabbed window shown when the mouse hovers over the tab.</comment>
-  </data>
   <data name="AboutSection" xml:space="preserve">
-    <value>About</value>
-    <comment>The name of the about menu item and section that is shown in the settings.</comment>
+    <value>關於</value>
   </data>
   <data name="OverlaySettingsSection" xml:space="preserve">
-    <value>Overlay Settings</value>
-    <comment>The name of the overlay settings menu item and section that is shown in the settings.</comment>
+    <value>重疊介面設定</value>
   </data>
   <data name="AboutLoveMessage" xml:space="preserve">
-    <value>Designed and built with all the love in Tyria by
-the Blish HUD team with help from many more!</value>
+    <value>由 Blish HUD 團隊傾注泰瑞亞所有的愛
+精心設計與打造，並凝聚了眾多夥伴的傾力相助!
+繁化 by Cavey.6432</value>
   </data>
   <data name="Setting_ShowInTaskbar_Description" xml:space="preserve">
-    <value>When enabled, Blish HUD will be shown in the taskbar while running.</value>
+    <value>若啟用，Blish HUD 執行時將會顯示在 Windows 下方的工作列中。</value>
   </data>
   <data name="Setting_ShowInTaskbar_DisplayName" xml:space="preserve">
-    <value>Show in Taskbar</value>
+    <value>顯示於工作列</value>
   </data>
   <data name="Setting_StayInTray_DisplayName" xml:space="preserve">
-    <value>Minimize to tray when Guild Wars 2 Closes.</value>
+    <value>當激戰2關閉時，最小化至系統工作列。</value>
   </data>
   <data name="Setting_AppCulture_Description" xml:space="preserve">
-    <value>Determines the language used when displaying Blish HUD text and when requests are made to the GW2 web API.</value>
+    <value>設定 Blish HUD 介面顯示，以及向激戰2官方 Web API 發送請求時所使用的語言。</value>
   </data>
   <data name="Setting_AppCulture_DisplayName" xml:space="preserve">
-    <value>Application &amp; API Language</value>
+    <value>應用程式與 API 語言</value>
   </data>
   <data name="Setting_StayInTray_Description" xml:space="preserve">
-    <value>If true, Blish HUD will automatically minimize when GW2 closes and will continue running until GW2 is launched again.
-You can also use the Blish HUD icon in the tray to launch Guild Wars 2.</value>
+    <value>若啟用，當激戰2關閉時，Blish HUD 將會自動最小化並維持背景執行，直到遊戲再次啟動。您也可以透過系統工作列
+的 Blish HUD 圖示來直接啟動激戰2。</value>
   </data>
   <data name="AboutAnetNotice" xml:space="preserve">
-    <value>©2010-{0} ArenaNet, LLC. All rights reserved. Guild Wars, Guild Wars 2, Heart of Thorns,
-Guild Wars 2: Path of Fire, ArenaNet, NCSOFT, the Interlocking NC Logo, and all associated
-logos and designs are trademarks or registered trademarks of NCSOFT Corporation. All other
-trademarks are the property of their respective owners.</value>
+    <value>©2010-{0} ArenaNet, LLC. 保留所有權利。Guild Wars、Guild Wars 2、Heart of Thorns
+(決戰邁古瑪)、Guild Wars 2: Path of Fire(烈焰征途)、ArenaNet、NCSOFT、NC 交叉標誌
+及所有相關標誌與設計均為 NCSOFT Corporation 的商標或註冊商標。所有其他商標均為其
+各自所有者的資產。</value>
   </data>
   <data name="Setting_UseGameVolume_Description" xml:space="preserve">
-    <value>When enabled, Blish HUD will adjust it's volume to the game audio.</value>
+    <value>若啟用，Blish HUD 將會自動根據遊戲的音量來調整自身音量。</value>
   </data>
   <data name="Setting_UseGameVolume_DisplayName" xml:space="preserve">
-    <value>Use Game Volume</value>
+    <value>使用遊戲音量</value>
   </data>
   <data name="Setting_Volume_DisplayName" xml:space="preserve">
-    <value>Volume</value>
+    <value>音量</value>
   </data>
   <data name="Setting_Volume_Description" xml:space="preserve">
-    <value>Determines the volume of Blish HUD. Only has an effect when 'Use Game Volume' is deactivated.</value>
+    <value>設定 Blish HUD 的音量。此選項僅在停用'使用遊戲音量'時才會生效。</value>
   </data>
   <data name="Setting_AudioDevice_DisplayName" xml:space="preserve">
-    <value>Audio Output Device</value>
+    <value>音訊輸出裝置</value>
   </data>
   <data name="Setting_AudioDevice_Description" xml:space="preserve">
-    <value>This determines the Audio output device used by Blish HUD. The Gw2OutputDevice adjusts itself to whatever GW2 is using.</value>
+    <value>設定 Blish HUD 所使用的音訊輸出裝置。其中 'Gw2OutputDevice' 會自動切換為與激戰2目前相同的輸出裝置。
+</value>
   </data>
   <data name="Setting_CloseWindowOnEscape_Description" xml:space="preserve">
-    <value>Closes Blish windows when focused and escape key is pressed</value>
+    <value>若啟用，當焦點處於 Blish HUD 視窗時，按下 Esc 鍵即可將其關閉。</value>
   </data>
   <data name="Setting_CloseWindowOnEscape_DisplayName" xml:space="preserve">
-    <value>Close Window on Escape</value>
+    <value>按 Esc 鍵關閉視窗</value>
   </data>
   <data name="Setting_HideInterfaceKeybind_Description" xml:space="preserve">
-    <value>Hide all of Blish interface for marvelous screenshots</value>
+    <value>隱藏 Blish HUD 的所有介面，以便拍攝絕佳的遊戲截圖。</value>
   </data>
   <data name="Setting_HideInterfaceKeybind_DisplayName" xml:space="preserve">
-    <value>Hide interface</value>
-  </data>
-  <data name="ConnectionStatus_Mumble_Name" xml:space="preserve">
-    <value>MumbleLink</value>
+    <value>隱藏介面</value>
   </data>
   <data name="ConnectionStatus_Mumble_Disconnected" xml:space="preserve">
-    <value>Unable to connect to MumbleLink with name '{0}'.
+    <value>無法連線至名稱為 '{0}' 的 MumbleLink。
 
-Check what launch arguments were used
-to launch both Guild Wars 2 and Blish HUD.</value>
+請檢查激戰2與 Blish HUD 所使用的啟動參數。</value>
   </data>
   <data name="ConnectionStatus_Mumble_Connected" xml:space="preserve">
-    <value>Connected to MumbleLink with name '{0}'.</value>
-  </data>
-  <data name="ConnectionStatus_ArcDPSBridge_Name" xml:space="preserve">
-    <value>ArcDPS Bridge</value>
+    <value>已成功連線至 MumbleLink，名稱為 '{0}'。</value>
   </data>
   <data name="ConnectionStatus_ArcDPSBridge_Connected" xml:space="preserve">
-    <value>Connected to ArcDPS via bridge plugin.</value>
+    <value>已透過橋接插件連線至 ArcDPS。</value>
   </data>
   <data name="ConnectionStatus_ArcDPSBridge_Disconnected" xml:space="preserve">
-    <value>No connection received from bridge.
+    <value>未接收到來自橋接程式的連線。
 
-It might not be installed.</value>
+該程式可能尚未安裝。</value>
   </data>
   <data name="Setting_ToggleBlishWindowKeybind_Description" xml:space="preserve">
-    <value>Set keybind to toggle the main window of Blish HUD</value>
+    <value>設定用來顯示或隱藏 Blish HUD 主視窗的快捷鍵。</value>
   </data>
   <data name="Setting_ToggleBlishWindowKeybind_DisplayName" xml:space="preserve">
-    <value>Toggle Blish HUD window</value>
+    <value>切換 Blish HUD 視窗顯示</value>
   </data>
   <data name="Setting_DynamicHUDMenuBar_Description" xml:space="preserve">
-    <value>Controls visibility of the Menu bar located in the upper-left of the screen.</value>
+    <value>控制畫面左上方選單列的顯示狀態。</value>
   </data>
   <data name="Setting_DynamicHUDMenuBar_DisplayName" xml:space="preserve">
-    <value>Menu Bar</value>
-  </data>
-  <data name="SelfUpdate_NewUpdateAvailable" xml:space="preserve">
-    <value>New Release Available</value>
-  </data>
-  <data name="SelfUpdate_ChangesInVersion" xml:space="preserve">
-    <value>Changes in v{0}</value>
+    <value>選單列</value>
   </data>
   <data name="SelfUpdate_UpdateToReleaseMenuStripText" xml:space="preserve">
-    <value>Update to Release v{0}</value>
+    <value>更新至正式版 v{0}</value>
   </data>
   <data name="SelfUpdate_UpdateToPrereleaseMenuStripText" xml:space="preserve">
-    <value>Update to Prerelease v{0}</value>
-  </data>
-  <data name="SelfUpdate_NoPendingUpdates" xml:space="preserve">
-    <value>No Pending Updates</value>
-  </data>
-  <data name="SelfUpdate_Progress_DownloadingReleaseArchive" xml:space="preserve">
-    <value>Downloading release v{0}...</value>
-  </data>
-  <data name="SelfUpdate_Progress_VerifyingChecksum" xml:space="preserve">
-    <value>Verifying checksum...</value>
-  </data>
-  <data name="SelfUpdate_Progress_ExtractingExecutable" xml:space="preserve">
-    <value>Extracting new executable...</value>
-  </data>
-  <data name="SelfUpdate_Progress_DownloadingPrereleaseArchive" xml:space="preserve">
-    <value>Downloading prerelease v{0}...</value>
-  </data>
-  <data name="SelfUpdate_PendingUpdatesQueryFailed" xml:space="preserve">
-    <value>Failed to Check for Updates</value>
-  </data>
-  <data name="SelfUpdate_Progress_RestartingIn" xml:space="preserve">
-    <value>Restarting in {0}...</value>
-  </data>
-  <data name="SelfUpdate_Progress_Restarting" xml:space="preserve">
-    <value>Restarting...</value>
+    <value>更新至預覽版 v{0}</value>
   </data>
   <data name="Setting_InteractKey_Description" xml:space="preserve">
-    <value>Used for interacting with the environment.
-For the best experience set this to the same key as in the game.</value>
+    <value>用於與遊戲環境進行互動。
+為了獲得最佳體驗，請將此按鍵設定為與遊戲內相同的快捷鍵。</value>
   </data>
   <data name="Setting_InteractKey_DisplayName" xml:space="preserve">
-    <value>Interact</value>
+    <value>互動</value>
   </data>
   <data name="Setting_ShowPreviews_DisplayName" xml:space="preserve">
-    <value>Preview Releases</value>
+    <value>預覽版本</value>
   </data>
   <data name="Setting_ShowPreviews_Description" xml:space="preserve">
-    <value>If enabled, prerelease versions of both modules and Blish HUD itself become available through the interface.
+    <value>若啟用，即可直接透過介面下載模組(Modules)與 Blish HUD 本身的預覽(測試)版本。
 
-WARNING: Prerelease modules or Blish HUD versions may be unstable.  By enabling this feature, you acknowledge that you'd like to be a guinea pig.  Do not use prerelease modules / versions of Blish HUD unless you're willing to experience crashes, bugs, or other issues.</value>
+警告: 預覽版的模組或 Blish HUD 可能不夠穩定。啟用此功能即代表您同意成為實驗白老鼠。除非您願意承受程式
+崩潰、Bug 或其他潛在問題，否則請勿使用預覽版本的模組或 Blish HUD。</value>
   </data>
   <data name="OverlayDynamicHUDSection" xml:space="preserve">
-    <value>Dynamic HUD</value>
+    <value>動態 HUD</value>
   </data>
   <data name="Setting_DynamicHUDLoading_Description" xml:space="preserve">
-    <value>Controls visibility during cut scenes and loading screens.</value>
+    <value>控制在過場動畫與地圖載入畫面期間的顯示狀態。</value>
   </data>
   <data name="Setting_DynamicHUDLoading_DisplayName" xml:space="preserve">
-    <value>Cut Scene / Loading Screen</value>
+    <value>過場動畫 / 載入畫面</value>
   </data>
   <data name="Setting_DynamicHUDWindows_Description" xml:space="preserve">
-    <value>Controls visibility of the windows.</value>
+    <value>控制視窗的顯示狀態。</value>
   </data>
   <data name="Setting_DynamicHUDWindows_DisplayName" xml:space="preserve">
-    <value>Windows</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="AboutThirdPartySoftware" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\..\obj\ThirdPartySoftware.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>視窗</value>
   </data>
   <data name="AboutThirdPartySoftwareHeading" xml:space="preserve">
-    <value>Software Licences</value>
-  </data>
-  <data name="Setting_StayInTray_AppendDisabled" xml:space="preserve">
-    <value> (Disabled because you launched Blish HUD with --startgw2, --pid, -g, or -P)</value>
+    <value>軟體授權</value>
   </data>
   <data name="About_DiscordCallToAction1" xml:space="preserve">
-    <value> 
-The majority of Blish HUD's feedback, development, and other discussions take place in our</value>
+    <value>
+Blish HUD 的多數回饋、開發動態以及其他討論， 都集中在我們的</value>
   </data>
   <data name="About_DiscordCallToAction2" xml:space="preserve">
     <value>Discord</value>
   </data>
   <data name="About_DiscordCallToAction3" xml:space="preserve">
-    <value> channel.
- </value>
+    <value> 頻道。
+</value>
   </data>
   <data name="About_DiscordCallToAction_Question" xml:space="preserve">
-    <value> 
-Need help or just want to
-participate in the conversation?</value>
+    <value>
+需要協助，或是單純
+想參與大家的討論嗎?</value>
   </data>
   <data name="About_DiscordCallToAction_Button" xml:space="preserve">
-    <value>Join our Discord</value>
-  </data>
-  <data name="SelfUpdate_NewPrereleaseAvailable" xml:space="preserve">
-    <value>New Prerelease Available</value>
+    <value>加入我們的 Discord</value>
   </data>
   <data name="Setting_MuteIfNoGameAudio_Description" xml:space="preserve">
-    <value>When enabled, Blish HUD will mute itself when the game does not emit any sound either.</value>
+    <value>若啟用，當遊戲沒有發出任何聲音時，Blish HUD 也會自動切換為靜音。</value>
   </data>
   <data name="Setting_MuteIfNoGameAudio_DisplayName" xml:space="preserve">
-    <value>Mute when Game is muted.</value>
+    <value>隨遊戲靜音</value>
   </data>
   <data name="About_UpdateStatus_Available" xml:space="preserve">
-    <value>An update to Blish HUD v{0} is available!</value>
+    <value>已有新版本 Blish HUD v{0} 可供更新!</value>
   </data>
   <data name="About_UpdateButton" xml:space="preserve">
-    <value>Update Blish HUD</value>
+    <value>更新 Blish HUD</value>
   </data>
   <data name="About_UpdateStatus_Latest" xml:space="preserve">
-    <value>You are running the latest version of Blish HUD.</value>
+    <value>您正在執行最新版本的 Blish HUD。</value>
   </data>
   <data name="Setting_AudioDevice_Description_DisabledHint" xml:space="preserve">
-    <value> (This setting is temporarily disabled in this version)</value>
+    <value> (此版本中已暫時停用此設定)</value>
   </data>
   <data name="Setting_DynamicHUD_AlwaysShow" xml:space="preserve">
-    <value>Always Show (Default)</value>
+    <value>總是顯示 (預設)</value>
   </data>
   <data name="Setting_DynamicHUD_ShowPeaceful" xml:space="preserve">
-    <value>Show Only out of Combat</value>
+    <value>僅在非戰鬥狀態顯示</value>
   </data>
   <data name="Setting_DynamicHUD_ShowInCombat" xml:space="preserve">
-    <value>Show Only in Combat</value>
+    <value>僅在戰鬥中顯示</value>
   </data>
   <data name="Setting_DynamicHUD_NeverShow" xml:space="preserve">
-    <value>Never Show</value>
+    <value>永不顯示</value>
   </data>
 </root>
