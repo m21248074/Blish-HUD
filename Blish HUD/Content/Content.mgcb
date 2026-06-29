@@ -365,6 +365,18 @@
 /processorParam:TextureFormat=Color
 /build:fonts/menomonia/menomonia-16-regular_0.png
 
+#begin fonts/menomonia/menomonia-16-regular_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-16-regular_1.png
+
 #begin fonts/menomonia/menomonia-18-bold.fnt
 /importer:BitmapFontImporter
 /processor:BitmapFontProcessor
@@ -399,6 +411,18 @@
 /processorParam:TextureFormat=Color
 /build:fonts/menomonia/menomonia-18-italic_0.png
 
+#begin fonts/menomonia/menomonia-18-italic_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-18-italic_1.png
+
 #begin fonts/menomonia/menomonia-18-regular.fnt
 /importer:BitmapFontImporter
 /processor:BitmapFontProcessor
@@ -415,6 +439,18 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:fonts/menomonia/menomonia-18-regular_0.png
+
+#begin fonts/menomonia/menomonia-18-regular_1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-18-regular_1.png
 
 #begin fonts/menomonia/menomonia-20-bold.fnt
 /importer:BitmapFontImporter
@@ -558,6 +594,30 @@
 /processorParam:MakeSquare=False
 /processorParam:TextureFormat=Color
 /build:fonts/menomonia/menomonia-32-regular_1.png
+
+#begin fonts/menomonia/menomonia-32-regular_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-32-regular_2.png
+
+#begin fonts/menomonia/menomonia-32-regular_3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-32-regular_3.png
 
 #begin fonts/menomonia/menomonia-34-regular.fnt
 /importer:BitmapFontImporter
