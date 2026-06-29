@@ -149,8 +149,8 @@ namespace Blish_HUD {
                              destinationRectangle,
                              color,
                              wrap,
-                             false,
-                             1,
+                             stroke,
+                             strokeDistance,
                              horizontalAlignment,
                              verticalAlignment,
                              clippingRectangle: null);
