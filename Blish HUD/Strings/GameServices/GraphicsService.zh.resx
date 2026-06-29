@@ -130,7 +130,8 @@
     <value>平滑角色定位</value>
   </data>
   <data name="Setting_SmoothCharacterPosition_Description" xml:space="preserve">
-    <value>若啟用，將會平滑化角色位置數據，以防止 3D 疊層元素出現抖動或跳動的現象。</value>
+    <value>若啟用，將會平滑化角色位置數據，以防止 3D 疊層元素出現抖動
+或跳動的現象。</value>
   </data>
   <data name="Setting_DPIScaling_DisplayName" xml:space="preserve">
     <value>DPI 縮放</value>

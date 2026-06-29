@@ -139,8 +139,8 @@
     <value>角色</value>
   </data>
   <data name="CreateTokenInstructions_Warning" xml:space="preserve">
-    <value>您可以註冊未開啟全部權限的金鑰，但某些功能與
-模組可能因此無法正常運作。
+    <value>您可以註冊未開啟全部權限的金鑰，但某些功能
+與模組可能因此無法正常運作。
 
 至少需要勾選 "Account" 與 "Character" 權限。</value>
   </data>

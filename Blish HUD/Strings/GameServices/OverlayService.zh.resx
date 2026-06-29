@@ -138,14 +138,16 @@
     <value>當激戰2關閉時，最小化至系統工作列。</value>
   </data>
   <data name="Setting_AppCulture_Description" xml:space="preserve">
-    <value>設定 Blish HUD 介面顯示，以及向激戰2官方 Web API 發送請求時所使用的語言。</value>
+    <value>設定 Blish HUD 介面顯示，以及向激戰2官方 Web API 發送請求時所使用的
+語言。</value>
   </data>
   <data name="Setting_AppCulture_DisplayName" xml:space="preserve">
     <value>應用程式與 API 語言</value>
   </data>
   <data name="Setting_StayInTray_Description" xml:space="preserve">
-    <value>若啟用，當激戰2關閉時，Blish HUD 將會自動最小化並維持背景執行，直到遊戲再次啟動。您也可以透過系統工作列
-的 Blish HUD 圖示來直接啟動激戰2。</value>
+    <value>若啟用，當激戰2關閉時，Blish HUD 將會自動最小化並維持背景執行，
+直到遊戲再次啟動。您也可以透過系統工作列的 Blish HUD 圖示來直接
+啟動激戰2。</value>
   </data>
   <data name="AboutAnetNotice" xml:space="preserve">
     <value>©2010-{0} ArenaNet, LLC. 保留所有權利。Guild Wars、Guild Wars 2、Heart of Thorns
@@ -169,7 +171,8 @@
     <value>音訊輸出裝置</value>
   </data>
   <data name="Setting_AudioDevice_Description" xml:space="preserve">
-    <value>設定 Blish HUD 所使用的音訊輸出裝置。其中 'Gw2OutputDevice' 會自動切換為與激戰2目前相同的輸出裝置。
+    <value>設定 Blish HUD 所使用的音訊輸出裝置。其中 'Gw2OutputDevice' 會自動
+切換為與激戰2目前相同的輸出裝置。
 </value>
   </data>
   <data name="Setting_CloseWindowOnEscape_Description" xml:space="preserve">
@@ -229,10 +232,12 @@
     <value>預覽版本</value>
   </data>
   <data name="Setting_ShowPreviews_Description" xml:space="preserve">
-    <value>若啟用，即可直接透過介面下載模組(Modules)與 Blish HUD 本身的預覽(測試)版本。
+    <value>若啟用，即可直接透過介面下載模組(Modules)與 Blish HUD 本身的預覽
+(測試)版本。
 
-警告: 預覽版的模組或 Blish HUD 可能不夠穩定。啟用此功能即代表您同意成為實驗白老鼠。除非您願意承受程式
-崩潰、Bug 或其他潛在問題，否則請勿使用預覽版本的模組或 Blish HUD。</value>
+警告: 預覽版的模組或 Blish HUD 可能不夠穩定。啟用此功能即代表您同意
+成為實驗白老鼠。除非您願意承受程式崩潰、Bug 或其他潛在問題，否則
+請勿使用預覽版本的模組或 Blish HUD。</value>
   </data>
   <data name="OverlayDynamicHUDSection" xml:space="preserve">
     <value>動態 HUD</value>
@@ -254,7 +259,9 @@
   </data>
   <data name="About_DiscordCallToAction1" xml:space="preserve">
     <value>
-Blish HUD 的多數回饋、開發動態以及其他討論， 都集中在我們的</value>
+Blish HUD 的多數回饋、
+開發動態以及其他討論，
+都集中在我們的 </value>
   </data>
   <data name="About_DiscordCallToAction2" xml:space="preserve">
     <value>Discord</value>
