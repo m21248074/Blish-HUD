@@ -156,6 +156,12 @@
   <data name="ModuleManagement_ModuleSettings" xml:space="preserve">
     <value>模組設定</value>
   </data>
+  <data name="ApiPermission_NoPermissionsRequested" xml:space="preserve">
+    <value>未請求任何權限</value>
+  </data>
+  <data name="Dependency_RequiresVersion" xml:space="preserve">
+    <value>需要 {0}</value>
+  </data>
   <data name="ModuleSettings_ShownWhenEnabled" xml:space="preserve">
     <value>啟用模組後將顯示設定選項</value>
   </data>

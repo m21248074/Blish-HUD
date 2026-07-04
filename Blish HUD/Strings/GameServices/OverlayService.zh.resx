@@ -221,6 +221,9 @@
   <data name="SelfUpdate_UpdateToPrereleaseMenuStripText" xml:space="preserve">
     <value>更新至預覽版 v{0}</value>
   </data>
+  <data name="SelfUpdate_NoPendingUpdates" xml:space="preserve">
+    <value>目前沒有更新</value>
+  </data>
   <data name="Setting_InteractKey_Description" xml:space="preserve">
     <value>用於與遊戲環境進行互動。
 為了獲得最佳體驗，請將此按鍵設定為與遊戲內相同的快捷鍵。</value>
