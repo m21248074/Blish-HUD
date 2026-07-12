@@ -706,6 +706,30 @@
 /processorParam:TextureFormat=Color
 /build:fonts/menomonia/menomonia-36-regular_1.png
 
+#begin fonts/menomonia/menomonia-36-regular_2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-36-regular_2.png
+
+#begin fonts/menomonia/menomonia-36-regular_3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:fonts/menomonia/menomonia-36-regular_3.png
+
 #begin fonts/menomonia/menomonia-8-bold.fnt
 /importer:BitmapFontImporter
 /processor:BitmapFontProcessor
