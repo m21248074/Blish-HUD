@@ -168,9 +168,11 @@
   <data name="ModuleOption_ClearSettings" xml:space="preserve">
     <value>清除設定</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ModuleOption_ClearSettings_DescriptionEnabled" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
+  <data name="ModuleOption_ClearSettings_DescriptionEnabled" xml:space="preserve">
+    <value>將模組設定恢復為預設值。</value>
+  </data>
+  <data name="ModuleOption_ClearSettings_DescriptionDisabled" xml:space="preserve">
+    <value>模組啟用時無法清除設定。</value>
   </data>
   <data name="ModuleOption_OpenDir" xml:space="preserve">
     <value>開啟 '{0}' 資料夾</value>
